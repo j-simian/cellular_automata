@@ -77,6 +77,7 @@ int main(int argc, char *argv[])
 		cairo_surface_write_to_png(surface, fileName);
 		cairo_surface_destroy(surface);
 	}
+
 	return 0;
 }
 
